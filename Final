@@ -1,0 +1,12 @@
+Final Keyword
+class FinalKeyword {
+
+    public static void main(String[] args) {
+
+        final int AGE = 20;
+
+        System.out.println("Age = " + AGE);
+
+        // AGE = 25; // Not allowed
+    }
+}
