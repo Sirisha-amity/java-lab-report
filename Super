@@ -1,0 +1,18 @@
+class Animal {
+    void display() {
+        System.out.println("This is Animal class");
+    }
+}
+
+class Dog extends Animal {
+
+    void show() {
+        super.display();
+        System.out.println("This is Dog class");
+    }
+
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.show();
+    }
+}
