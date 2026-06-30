@@ -1,0 +1,23 @@
+class StaticKeyword {
+
+    static String college = "ABC Engineering College";
+
+    String name;
+
+    StaticKeyword(String n) {
+        name = n;
+    }
+
+    void display() {
+        System.out.println(name + " - " + college);
+    }
+
+    public static void main(String[] args) {
+
+        StaticKeyword s1 = new StaticKeyword("Sirisha");
+        StaticKeyword s2 = new StaticKeyword("Rahul");
+
+        s1.display();
+        s2.display();
+    }
+}
